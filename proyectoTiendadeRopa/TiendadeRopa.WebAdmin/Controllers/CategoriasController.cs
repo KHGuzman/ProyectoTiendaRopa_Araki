@@ -7,6 +7,7 @@ using TiendadeRopa.BL;
 
 namespace TiendadeRopa.WebAdmin.Controllers
 {
+    [Authorize]
     public class CategoriasController : Controller
     {
         CategoriasBL _categoriasBL;
