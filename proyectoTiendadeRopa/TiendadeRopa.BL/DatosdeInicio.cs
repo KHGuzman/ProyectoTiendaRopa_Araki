@@ -17,7 +17,7 @@ namespace TiendadeRopa.BL
 
             nuevoUsuario.Nombre = "Estefany Bobadilla";
             nuevoUsuario.Contrasena = Encriptar.CodificarContrasena("20182001740");
-            
+
             nuevoUsuario.Nombre = "Grissel Ortiz";
             nuevoUsuario.Contrasena = Encriptar.CodificarContrasena("20162030899");
 
